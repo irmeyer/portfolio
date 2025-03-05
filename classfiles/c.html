@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSCI - C291</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../photo/logo1.png">
+    <link rel="stylesheet" href="https://use.typekit.net/crl6sqn.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../photo/logo1.png" width=40px height=40px>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../portfolio.html">Portfolio</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../resume.html">Resume</a></li>
+        </ul>
+    </nav>
+    <hr class="styled-line">
+    <div class="back">
+        <a href="../portfolio.html">Back</a>
+    </div>
+    <h3 class="worktitle">CSCI - C291 : System Progamming with C and Unix/Linux</h3>
+    <div class="portfoliolink">
+        <a href="https://github.iu.edu/irmeyer/C291">View Repository</a>
+    </div>
+    <div class="descriptionVideo">
+        <div class="text">
+            <h3>Payroll Calculator Program (C Language) - C291 Assignment </h3>
+            <p>This project is a payroll calculation program developed in C for Indiana University's C291 Systems
+                Programming course. The program allows a payroll clerk to input monthly payroll data for different types
+                of
+                workers, including
+                Administrators, Staff, Hourly, Adjunct Faculty, Regular Faculty, and Teaching Assistants. It calculates
+                and
+                reports the average monthly salary and pay for each category while handling specific constraints such as
+                overtime limits
+                and pay codes using a switch statement.</p>
+
+            <p> Key Features: </p>
+            <ul>
+                <li>User input for payroll data with structured prompts</li>
+                <li>Salary and pay calculations based on predefined formulas</li>
+                <li>Error handling for invalid payroll codes (extra credit) </li>
+                <li>Structured output displaying payroll summaries</li>
+                <li>Restrictions on loop nesting and required use of switch statements</li>
+                <li>Well-documented code with pseudocode and comments for readability</li>
+            </ul>
+        </div>
+        <video width="600" controls>
+            <source src="/documents/A02-SR.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="descriptionVideo2">
+        <div class="text">
+            <h3>Payroll Earnings Statement Program (C Language) - C291 Assignment</h3>
+            <p>This project is a C-based payroll reporting program for the Bloomington Skating Company, designed as
+                part of Indiana
+                University's C291 Systems Programming course. The program calculates monthly payroll earnings,
+                including sales
+                commissions, bonuses, tax withholdings, and Social Security contributions for employees based on
+                company profit and
+                individual tenure.</p>
+
+            <p>Key Features:</p>
+            <ul>
+                <li>User input for sales and tenure data for up to 5 employees</li>
+                <li>Calculation of commissions, bonuses, federal/state tax withholdings, and Social Security</li>
+                <li>Structured output displaying payroll details, including net pay and net company profit</li>
+                <li>Implementation of key operations using functions and arrays for modular design</li>
+                <li>Detailed comments, function prototypes, and meaningful variable names.</li>
+            </ul>
+            <p> Programming Constraints:</p>
+            <ul>
+                <li>Sales and tenure data stored in arrays
+                <li>Defined functions for key calculations (e.g., commission, bonus, taxes, net pay)
+                <li>Pseudocode documentation and structured comments for readability
+                <li>No use of "magic numbers" (hardcoded values)
+            </ul>
+            <p>Extra Credit Opportunity:</p>
+            <p>An additional 5 points can be earned by implementing a generic withholding function that is used
+                across
+                all tax calculations.</p>
+        </div>
+        <video width="600" controls>
+            <source src="/documents/A03-SR.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="descriptionVideo">
+        <div class="text">
+
+            <h3>Buffer Indexing Program (C Language) - C291 Assignment</h3>
+            <p>This project is a C-based text processing program for analyzing and indexing unique words in a given
+                input.
+                The program reads up to 2048 characters from stdin, stores them in a buffer, identifies unique words,
+                and generates a
+                report summarizing their occurrences, positions, and lengths.</p>
+
+            <p>Key Features:</p>
+            <ul>
+                <li>Reads up to 2048 bytes from stdin or until EOF</li>
+                <li>Identifies unique words and indexes their positions, lengths, and counts</li>
+                <li>Outputs a structured report listing each word's position, length, and frequency</li>
+                <li>Ensures that only the function loading the buffer modifies it; all others access it as read-only
+                </li>
+                <li>Implements a modular driver architecture with separate functions for buffer handling, indexing, and
+                    reporting</li>
+            </ul>
+            <p>Programming Constraints:</p>
+            <ul>
+                <li>No global variables; all variables must be locally scoped</li>
+                <li>Uses a multi-dimensional array to store word indices, lengths, and counts
+                    main() serves as a driver function that calls separate functions for processing</li>
+                <li>Meaningful variable names and structured comments for readability</li>
+                <li>No use of "magic numbers" (hardcoded values)</li>
+            </ul>
+        </div>
+        <video width="600" controls>
+            <source src="/documents/A04-SR.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+    </div>
+</body>
+
+</html>
