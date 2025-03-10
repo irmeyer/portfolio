@@ -97,12 +97,45 @@ h1 {
     padding-left: 40px;
 }
 
+.text3 {
+    padding-left: 40px;
+}
+
 .descriptionVideo video {
     align-content: center;
     padding: 30px;
 
 }
 
+.link {
+    padding: 30px;
+    text-decoration: underline;
+    margin: 30px;
+    font-size: larger;
+}
+
+.descriptionVideo iframe {
+    align-content: center;
+    padding: 30px;
+
+}
+
+.designimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+
+}
+
+.designimg iframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
 
 
 .about-section {
