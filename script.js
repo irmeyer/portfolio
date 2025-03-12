@@ -15,3 +15,16 @@ document.addEventListener("click", (event) => {
         navLinks.classList.remove("show");
     }
 });
+
+const text = "Hi, I'm Bella Meyer.";
+let i = 0;
+
+function typeWriter() {
+    if (i < text.length) {
+        document.getElementById("typing-text").innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typeWriter, 100);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", typeWriter);
